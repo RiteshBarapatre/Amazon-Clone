@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.header{
+    background-color: #131921;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    font-family: 'Roboto', sans-serif;
+}
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 8px;
+}
+
+#categories_dropdown{
+    width: 70px;
+    outline: none;
+    padding: 8px;
+    background-color: #e9eded;;
+    color: grey;
+    cursor: pointer;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.header__search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 20px;
+}
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+    color: white;
+}
+.header__optionLineOne{
+    font-size: 10px;
+}
+.header__optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount{
+    margin: 0 10px;
+}
